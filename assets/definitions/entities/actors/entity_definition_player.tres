@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EntityDefinition" load_steps=4 format=3 uid="uid://nonyedj0ufmd"]
+
+[ext_resource type="Script" path="res://src/Entities/entity_definition.gd" id="1_jis8c"]
+[ext_resource type="Texture2D" uid="uid://cp62r7pyycgkm" path="res://assets/images/SuperGameboyQuest_v1.0.0/sprites/characters/main/elf.png" id="2_yrukw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_50h3g"]
+atlas = ExtResource("2_yrukw")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_jis8c")
+texture = SubResource("AtlasTexture_50h3g")
+color = Color(1, 1, 1, 1)
