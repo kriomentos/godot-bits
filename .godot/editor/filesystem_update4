@@ -2,3 +2,11 @@ res://src/Game/game.tscn
 res://assets/definitions/entities/actors/entity_definition_player.tres
 res://assets/definitions/tiles/tile_definition_floor.tres
 res://assets/definitions/tiles/tile_definition_wall.tres
+res://README.md
+res://src/Map/map_data.gd
+res://src/Entities/Actors/Actions/movement_action.gd
+res://src/Utils/Util.gd
+res://src/Utils/grid.gd
+res://src/Map/DungeonGenerator.gd
+res://src/Map/map.gd
+res://src/Game/game.gd
