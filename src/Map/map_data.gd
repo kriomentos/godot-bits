@@ -4,6 +4,7 @@ extends RefCounted
 const tile_types = {
 	"floor": preload("res://assets/definitions/tiles/tile_definition_floor.tres"),
 	"wall": preload("res://assets/definitions/tiles/tile_definition_wall.tres"),
+	"roof": preload("res://assets/definitions/tiles/tile_definition_roof.tres"),
 }
 
 var width: int
